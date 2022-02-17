@@ -49,3 +49,32 @@ nav:hover .logo{
 nav:hover ul li a{
     color: #333;
 }
+.content{
+    margin-top: 9%;
+    margin-left: 9%;
+    color: #fff;
+}
+.content h1{
+    font-size: 120px;
+    line-height: 140px;
+    font-weight: 600;
+}
+.content p{
+    max-width: 500px;
+    line-height: 28px;
+}
+.links{
+    margin-top: 30px;
+}
+.links a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn{
+    border: 2px solid #fff;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 15px;
+
+}
