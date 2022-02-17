@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppings', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(5,0,136,0.5),rgba(5,0,136,0.5)),url(./smartWatch_img/images/back.png);
+    background-position: center;
+    background-size: cover;
+
+
+}
