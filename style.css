@@ -10,6 +10,7 @@
     background-image: linear-gradient(rgba(5,0,136,0.5),rgba(5,0,136,0.5)),url(./smartWatch_img/images/back.png);
     background-position: center;
     background-size: cover;
+    overflow-x: hidden;
 }
 nav{
     width: 100%;
@@ -62,9 +63,11 @@ nav:hover ul li a{
 .content p{
     max-width: 500px;
     line-height: 28px;
+    opacity: 0;
 }
 .links{
     margin-top: 30px;
+    opacity: 0;
 }
 .links a{
     color: #fff;
@@ -89,4 +92,10 @@ nav:hover ul li a{
         transform: translate(0px);
         opacity: 1;
 }
+}
+p.slide-left{
+    animation-delay: 1s;
+}
+.links.slide-left{
+    animation-delay: 2s;
 }
